@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+# data, audio and model weights never go in git
+*.tar
+*.tar.partial
+*.flac
+*.wav
+*.mp3
+*.npz
+*.parquet
+*.onnx
+*.pt
+*.bin
+*.safetensors
+
+# credentials (see README, Credentials)
+secrets.env
+*.env
